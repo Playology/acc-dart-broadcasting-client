@@ -1,0 +1,21 @@
+name: acc_dart_broadcasting_client
+description: "A client for the broadcasting API of Assetto Corsa Competizione"
+version: 1.0.0
+homepage:
+  "https://github.com/playology/acc-broadcasting-client"
+environment:
+  sdk: ^3.5.3
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  udp: ^5.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  generate: false
